@@ -1,4 +1,4 @@
-# Red-Line-Semantic-Segmentation
+# Red Line Semantic Segmentation
 
 **Folders:** \
 Faint Red Line Images - Testing images containing faint red lines \
