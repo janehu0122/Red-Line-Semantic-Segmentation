@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": null,
+      "points": [
+        [
+          188.0,
+          361.0
+        ],
+        [
+          259.0,
+          318.0
+        ],
+        [
+          263.0,
+          329.0
+        ],
+        [
+          198.0,
+          369.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": null
+    },
+    {
+      "label": null,
+      "points": [
+        [
+          281.0,
+          354.0
+        ],
+        [
+          314.0,
+          358.0
+        ],
+        [
+          356.0,
+          344.0
+        ],
+        [
+          392.0,
+          325.0
+        ],
+        [
+          392.0,
+          331.0
+        ],
+        [
+          369.0,
+          353.0
+        ],
+        [
+          323.0,
+          369.0
+        ],
+        [
+          284.0,
+          365.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": null
+    },
+    {
+      "label": null,
+      "points": [
+        [
+          393.0,
+          297.0
+        ],
+        [
+          446.0,
+          303.0
+        ],
+        [
+          446.0,
+          311.0
+        ],
+        [
+          394.0,
+          308.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": null
+    }
+  ],
+  "imagePath": "2020-12-25T14_10_07.PNG",
+  "imageData": null,
+  "imageHeight": 256,
+  "imageWidth": 256
+}
