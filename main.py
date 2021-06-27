@@ -1,8 +1,6 @@
 """
 Title: Image segmentation with a U-Net++ like architecture Attempt 2
 Description: Image segmentation model trained from scratch on the Red Line dataset.
-
-Sources: 
 """
 
 """
