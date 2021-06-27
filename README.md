@@ -7,8 +7,7 @@ Red Line Data Files - Training images along with their corressponding masks \
 
 **To Run Program:**
 1. Download all files
-2. Run main.py to create model for old training set
-3. Run binary_skeleton.py to create model for new binary skeleton training set
+2. Run main.py to create model with binary skeleton training set
 
 
 
