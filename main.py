@@ -25,12 +25,12 @@ import unetplusplus_model
 ### Augmented Brightness training set: "Augmented Brightness Images", "Augmented Brightness Labels"
 ### Augmented hue training set: "Hue Images", "Hue Labels"
 
-input_dir = "Red Line Data Files/Augmented Brightness Images"
-target_dir = "Red Line Data Files/Augmented Brightness Labels"
+input_dir = "Red Line Data Files/Skeleton Images"
+target_dir = "Red Line Data Files/Skeleton Labels"
 img_size = (256, 256)
 num_classes = 2
-batch_size = 10
-epochs = 80
+batch_size = 5
+epochs = 100
 number_of_filters = 2
 
 input_img_paths = sorted(
@@ -99,7 +99,7 @@ unet.model.summary()
 """
 
 # Split our img paths into a training and a validation set
-val_samples = 10
+val_samples = 5
 random.Random(30).shuffle(input_img_paths)
 random.Random(30).shuffle(target_img_paths)
 train_input_img_paths = input_img_paths[:-val_samples]
@@ -124,7 +124,7 @@ callbacks = [
 unet.model.fit(train_gen, epochs=epochs, validation_data=val_gen, callbacks=callbacks)
 
 """
-### Save the model 
+## Save the model 
 """
 unet.model.save("redline_segmentation_model.hdf5")
 
@@ -163,7 +163,7 @@ display_mask(i)
 # folder containing images to run through model
 # for testing on faint red lines, "Faint Red Line Images"
 # for testing on all images, "Red Line Images"
-testing_dir = "Red Line Images"
+testing_dir = "Faint Red Line Images"
 
 testing_folder_paths = [os.path.join(testing_dir, fname)
         for fname in os.listdir(testing_dir)
