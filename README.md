@@ -2,14 +2,14 @@
 
 ## Files: 
 * Faint Red Line Images - Testing images containing faint red lines 
-  * *Need to upload all images within red line data set
 * Red Line Data Files - Training images along with their corressponding masks 
-  * *Need to update Red Line Data files to contain all of the training sets*
-* 
+* Red Line Images - All images
+* prediction_generator.py - Generates and displays predictions for images within a folder
+* unetplusplus_model.py - Unet ++ architecture
 
 ## To Run Program:
 1. Download all files
-2. Run main.py to create model with binary skeleton training set
+2. Run main.py to create and train model
 3. Instructions on how to change training and testing set are within main.py
 
 
