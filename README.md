@@ -6,6 +6,8 @@
 * **Red Line Images** - All images
 * *prediction_generator.py* - Generates and displays predictions for images within a folder
 * *unetplusplus_model.py* - Unet ++ architecture
+* *main.py* - Code to run to train and test model
+  * Saves model as "redline_segmentation_model.hdf5" 
 
 ## To Run Program:
 1. Download all files
