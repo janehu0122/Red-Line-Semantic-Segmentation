@@ -3,7 +3,7 @@
 ## Folders: 
 * Faint Red Line Images - Testing images containing faint red lines 
 * Red Line Data Files - Training images along with their corressponding masks 
-* *Need to update Red Line Data files to contain all of the training sets*
+  * *Need to update Red Line Data files to contain all of the training sets*
 
 ## To Run Program:
 1. Download all files
