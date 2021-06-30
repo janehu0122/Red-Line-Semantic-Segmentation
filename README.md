@@ -17,5 +17,6 @@ The program was run using Python 3.8.8. Must have TensorFlow 2.5.0 or greater an
 2. Run *main.py* to create and train model
 3. Instructions on how to change training and testing set are within main.py
 
-
+## To Do
+* Create a user interface that enables a user to label images, use the images to train a model, and the test the resulting model.
 
