@@ -11,6 +11,7 @@ The program was run using Python 3.8.8. Must have TensorFlow 2.5.0 or greater an
 * *unetplusplus_model.py* - Unet ++ architecture
 * *main.py* - Code to run to train and test model
   * Saves model as "redline_segmentation_model.hdf5" 
+* *environment.yml* - Information regarding environment
 
 ## To Run Program:
 1. Download all files
