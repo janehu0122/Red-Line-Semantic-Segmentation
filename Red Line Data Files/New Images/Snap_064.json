@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": null,
+      "points": [
+        [
+          245.0,
+          309.0
+        ],
+        [
+          280.0,
+          309.0
+        ],
+        [
+          330.0,
+          305.0
+        ],
+        [
+          397.0,
+          298.0
+        ],
+        [
+          453.0,
+          291.0
+        ],
+        [
+          399.0,
+          301.0
+        ],
+        [
+          335.0,
+          309.0
+        ],
+        [
+          282.0,
+          314.0
+        ],
+        [
+          255.0,
+          314.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": null
+    }
+  ],
+  "imagePath": "Snap_064.PNG",
+  "imageData": null,
+  "imageHeight": 256,
+  "imageWidth": 256
+}
