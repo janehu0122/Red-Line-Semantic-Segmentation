@@ -155,9 +155,9 @@ display_mask(i)
 """
 
 # folder containing images to run through model
-# for testing on faint red lines, "Faint Red Line Images"
+# for testing on faint red lines, "Faint Red Line Images - Synthetic"
 # for testing on all images, "Red Line Images - Synthetic"
-testing_dir = "Faint Red Line Images"
+testing_dir = "Faint Red Line Images - Synthetic"
 
 testing_folder_paths = [os.path.join(testing_dir, fname)
         for fname in os.listdir(testing_dir)
