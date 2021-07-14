@@ -20,8 +20,8 @@ The program was run using Python 3.8.8. Must have TensorFlow 2.5.0 or greater an
 ## To Run Program:
 1. Download all files
 2. Run
-   a. *main_hand.py*
-   b. *main_synthetic.py*
+   * *main_hand.py*
+   * *main_synthetic.py*
    
 ## To Do
 * Create a user interface that enables a user to label images, use the images to train a model, and the test the resulting model.
