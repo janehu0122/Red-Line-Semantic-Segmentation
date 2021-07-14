@@ -6,7 +6,10 @@ The program was run using Python 3.8.8. Must have TensorFlow 2.5.0 or greater an
 ## Files: 
 * **Faint Red Line Images - Synthetic** 
 * **Red Line Data Files**
-  * 
+  * New Images
+  * New Labels
+  * Skeleton Images
+  * Skeleton Labels
 * **Red Line Images - Synthetic**
 * **Testing Images - Hand**
 * **Training Images - Hand** 
