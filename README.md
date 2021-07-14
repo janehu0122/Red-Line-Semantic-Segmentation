@@ -4,20 +4,25 @@
 The program was run using Python 3.8.8. Must have TensorFlow 2.5.0 or greater and Keras 2.3.1 or greater. If packages are not installed, can install through running "pip install tensorflow==2.5.0" and "pip install keras==2.3.1" in main command window
 
 ## Files: 
-* **Faint Red Line Images** - Testing images containing faint red lines 
-* **Red Line Data Files** - Training images along with their corressponding masks 
-* **Red Line Images** - All images
+* **Faint Red Line Images - Synthetic** 
+* **Red Line Data Files**
+  * 
+* **Red Line Images - Synthetic**
+* **Testing Images - Hand**
+* **Training Images - Hand** 
 * *prediction_generator.py* - Generates and displays predictions for images within a folder
 * *unetplusplus_model.py* - Unet ++ architecture
-* *main.py* - Code to run to train and test model
+* *main_hand.py* 
+* *main_synthetic.py* 
   * Saves model as "redline_segmentation_model.hdf5" 
 * *environment.yml* - Information regarding environment
 
 ## To Run Program:
 1. Download all files
-2. Run *main.py* to create and train model
-3. Instructions on how to change training and testing set are within main.py
-
+2. Run
+   a. *main_hand.py*
+   b. *main_synthetic.py*
+   
 ## To Do
 * Create a user interface that enables a user to label images, use the images to train a model, and the test the resulting model.
 
