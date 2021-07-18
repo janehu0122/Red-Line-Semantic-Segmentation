@@ -14,6 +14,7 @@ The program was run using Python 3.8.8. Must have TensorFlow 2.5.0 or greater an
 * **Testing Images - Hand**: Testing set for hand data
 * **Training Images - Hand**: Unprocessed training set for hand data
 * *prediction_generator.py*: Generates and displays predictions for images within a folder
+  * See file for instructions on how to output binary and probability masks
 * *unetplusplus_model.py*: Unet ++ architecture
 * *main_hand.py*: Run to train model with synthetic data
 * *main_synthetic.py*: Run to train model with hand data
