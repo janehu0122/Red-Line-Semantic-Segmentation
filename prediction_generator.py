@@ -17,7 +17,7 @@ def generate_predictions_on_folder(folder_path, unet, img_size):
 
     testing_img_paths = [os.path.join(testing_dir, fname) 
                          for fname in os.listdir(testing_dir)
-                         if fname.endswith(".png")]
+                         if (fname.endswith(".png") or fname.endswith(".jpg"))]
 
     x = np.zeros((len(testing_img_paths),) + img_size + (3,), dtype="float32")
 
@@ -35,6 +35,8 @@ def generate_predictions_on_folder(folder_path, unet, img_size):
         """Quick utility to display a model's prediction."""
         ### To display binary masks, comment the folowing line
         # mask = np.argmax(testing_preds[i], axis=-1)
+        ### To display binary masks, comment the folowing line
+        mask = testing_preds[i,:,:,-1]
         mask = np.expand_dims(mask, axis=-1)
         img = PIL.ImageOps.autocontrast(keras.preprocessing.image.array_to_img(mask))
         display(img)
