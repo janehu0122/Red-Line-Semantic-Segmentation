@@ -35,7 +35,7 @@ def generate_predictions_on_folder(folder_path, unet, img_size):
         """Quick utility to display a model's prediction."""
         ### To display binary masks, comment the folowing line
         # mask = np.argmax(testing_preds[i], axis=-1)
-        ### To display binary masks, comment the folowing line
+        ### To display probability maps, comment the folowing line
         mask = testing_preds[i,:,:,-1]
         mask = np.expand_dims(mask, axis=-1)
         img = PIL.ImageOps.autocontrast(keras.preprocessing.image.array_to_img(mask))
