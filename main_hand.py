@@ -24,7 +24,7 @@ target_dir = "Red Line Data Files/New Labels"
 img_size = (256, 256)
 num_classes = 2
 batch_size = 10
-epochs = 250
+epochs = 150
 number_of_filters = 2
 
 input_img_paths = sorted(
